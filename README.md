@@ -69,4 +69,6 @@ Step 4: Identify Elements Divisible by 3 - To find elements in matrix 'A' that a
 
 Step 5: Resize the Array of Divisible Elements - I resized the array 'div' into a 3x11 matrix using 'np.resize(div, (3,11))', as there may be more elements than can fit into a 3x11 matrix, so the final shape might not fully represent all elements divisible by 3. The resized array was stored in the variable 'elem.'
 
+## Conclusion
 
+In this experiment, the Numpy library was explored through two key tasks, showcasing its functionalities and practical applications. The first task involved normalizing a 5x5 matrix by calculating its mean and standard deviation, illustrating how to standardize data for analysis. The second task required generating a 10x10 matrix of squared integers and identifying elements divisible by 3, highlighting the efficiency of Numpy’s array operations and indexing. These exercises provided valuable insights into data preprocessing and array manipulation, underscoring the importance of mastering Numpy for effective data analysis in Python.
