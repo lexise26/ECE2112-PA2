@@ -27,6 +27,8 @@ From the ndarray, determine all the elements that are divisible by 3.
 
 ### **NORMALIZATION PROBLEM**
 
+![Screenshot 2024-09-14 205206](https://github.com/user-attachments/assets/911f9a4d-51cf-40a3-a095-1fd9c1fa2b0d)
+
 Step 1: Create a 5x5 Matrix with Random Elements - I started by creating a 5x5 matrix with random values using 'np.random.random((5,5))'. This function generates values between 0 and 1 to populate the matrix.
 
 Step 2: Print the Original Matrix
@@ -48,6 +50,8 @@ Step 7: Print the Normalized Matrix
 I printed the title "Normalization of X:" to introduce the normalized data, followed by the contents of matrix Z.
 
 ### **DIVISIBLE BY 3 PROBLEM**
+
+![Screenshot 2024-09-14 205132](https://github.com/user-attachments/assets/311d914e-a378-4a71-a80e-99e074e78eae)
 
 Step 1: Create and Square Elements in an Array - I began by creating a 1D NumPy array 'a' containing integers from 1 to 100. Each element in this array was squared using 'np.array(range(1,101))**2.'
 
