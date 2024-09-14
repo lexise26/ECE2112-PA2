@@ -14,26 +14,18 @@ Write a Python script/code in the Jupyter Notebook to do the given problems.
 ## Problems
 
 **NORMALIZATION PROBLEM:** Normalization is one of the most basic preprocessing techniques in data analytics. This involves centering and scaling process. Centering means subtracting the data from the
-mean and scaling means dividing with its standard deviation. Mathematically, normalization can be expressed as:
-
-![Screenshot 2024-09-01 125839](https://github.com/user-attachments/assets/521de641-4e20-4b27-8fd6-f3181f5afa60)
+mean and scaling means dividing with its standard deviation.
 
 In Python, element-wise mean and element-wise standard deviation can be obtained by using .mean() and .std() calls.
 In this problem, create a random 5 x 5 ndarray and store it to variable X. Normalize X. 
 
 
-**DIVISIBLE BY 3 PROBLEM:** Create the following 10 x 10 ndarray.
-
-![Screenshot 2024-09-01 125846](https://github.com/user-attachments/assets/b9d9072a-c055-4761-ab72-e0f021fee87c)
-
-which are the squares of the first 100 positive integers.
-From this ndarray, determine all the elements that are divisible by 3.
+**DIVISIBLE BY 3 PROBLEM:** Create the following 10 x 10 ndarray which are the squares of the first 100 positive integers.
+From the ndarray, determine all the elements that are divisible by 3.
 
 ## How I did my code:
 
 ### **NORMALIZATION PROBLEM**
-
-![PA2-1](https://github.com/user-attachments/assets/dabd57ac-a2a7-453f-965e-f472e42f41ae)
 
 Step 1: Create a 5x5 Matrix with Random Elements - I started by creating a 5x5 matrix with random values using 'np.random.random((5,5))'. This function generates values between 0 and 1 to populate the matrix.
 
@@ -56,8 +48,6 @@ Step 7: Print the Normalized Matrix
 I printed the title "Normalization of X:" to introduce the normalized data, followed by the contents of matrix Z.
 
 ### **DIVISIBLE BY 3 PROBLEM**
-
-![PA2-2](https://github.com/user-attachments/assets/284ae5fa-5308-41ee-b23a-4c933104012e)
 
 Step 1: Create and Square Elements in an Array - I began by creating a 1D NumPy array 'a' containing integers from 1 to 100. Each element in this array was squared using 'np.array(range(1,101))**2.'
 
